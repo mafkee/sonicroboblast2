@@ -329,13 +329,16 @@
           <details id="addons">
             <summary>Mods</summary>
             <div id="addonFilesContainer">
-         
+              <div class="addonFilesField" id="addonFilesTemplate">
+                <input type="file" id="addonFiles" class="button yellowButton"/>
+                <label for="addonFiles" class="button yellowButton">Load File</label>
+                <div class="addonButton addonDelete button redButton">-</div>
               </div>
             </div>
-              <!-- <div id="addonButtonAdd1" class="button blueButton1">+</div> -->
+              <div id="addonButtonAdd" class="button blueButton">+</div>
             <p>
-            <!--  <input type="AAAA" id="addonStartup1" checked/>
-              <label for="addonStartup1"> </label> -->
+              <input type="checkbox" id="addonStartup" checked/>
+              <label for="addonStartup">Load Mods on Startup</label>
             </p>
         <!--  <details id="addonsHelp">
               <summary>Mod Help</summary>
