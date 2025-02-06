@@ -324,11 +324,29 @@
           <p>
             <button id="resetbtn" class="button" onclick="javascript:window.location.reload()">Cancel</button>
           </p>
-      
+        </div>
+         <!-- <form id="controlsForm" action="javascript:void(0);">
+          <details id="addons">
+            <summary>Mods</summary>
+            <div id="addonFilesContainer">
+              <div class="addonFilesField" id="addonFilesTemplate">
+                <input type="file" id="addonFiles" class="button yellowButton"/>
+                <label for="addonFiles" class="button yellowButton">Load File</label><!--
+                <div class="addonButton addonDelete button redButton">-</div>
               </div>
             </div>
-        
-            </details>
+              <div id="addonButtonAdd" class="button blueButton">+</div>
+            <p>
+              <input type="checkbox" id="addonStartup" checked/>
+              <label for="addonStartup">Load Mods on Startup</label>
+            </p>
+          <details id="addonsHelp">
+              <summary>Mod Help</summary>
+              <p>You may load one or more mods here. Drag each mod to change its loading order.</p>
+              <p>Or, you may load ZIP files. They will be available in the Addons Menu.</p>
+              <p>To load savegames and gamedata, place them in a folder titled <code>userdata/</code> within the ZIP file. Your stored gamedata will be overwritten.</p>
+              <p><a href="https://mb.srb2.org/forumdisplay.php?f=116" target="_blank">You may download mods here</a>.</p>
+            </details> -->
           </details>
           <details id="controls">
             <summary>Settings</summary>
@@ -405,8 +423,33 @@
         <details id="footer">
           <summary>About</summary>
           <p>Sonic Robo Blast 2 is a 3D Sonic the Hedgehog fangame inspired by the original Sonic games of the 1990s.</p>
-         
-  
+          <p>This project allows you to play SRB2 on your web browser, including iPhone and iPad.</p>
+          <p><a href="https://github.com/mazmazz/SRB2-emscripten/issues">View issues</a> / <a href="https://github.com/mazmazz/SRB2-emscripten">View source</a></p>
+          <p>Contributors:</p>
+          <p><a href="https://github.com/mazmazz">mazmazz</a> / <a href="https://github.com/heyjoeway">heyjoeway</a> / <a href="https://github.com/Jimita">Jimita</a></p>
+          <p>Follow SRB2:</p>
+          <p><a href="https://www.srb2.org">Website</a> / <a href="https://twitter.com/SonicTeamJr">Twitter</a> / <a href="https://discord.com/invite/pYDXzpX">Discord</a></p>
+          <p style="font-size:xx-small;">
+            SRB2 Web Version: 1592091069
+          </p>
+          <span id="newVersion"></span>
+          <p style="font-size:xx-small;">
+            This software is licensed under GNU General Public License Version 2. See license text at <a href="https://opensource.org/licenses/GPL-2.0" target="_blank">https://opensource.org/licenses/GPL-2.0</a>.
+          </p>
+          <p style="font-size:xx-small;">
+            The <a href="https://musical-artifacts.com/artifacts/400" target="_blank">Florestan Basic GM GS</a> soundfont is created by <a href="http://dev.nando.audio" target="_blank">Nando Florestan</a>.
+          </p>
+          <p style="font-size:xx-small;">
+            Original design and content is copyright 1998-2020 Sonic Team Junior. All non-original material is copyrighted by their respective owners, and no copyright infringement is intended.
+          </p>
+        </details>
+        <div id="copyright">
+          <p style="font-size:xx-small;">
+            Sonic Robo Blast 2 and Sonic Team Junior are in no way affiliated with SEGA&reg; or Sonic Team.
+          </p>
+          <p style="font-size:xx-small;">
+            Sonic the Hedgehog is a trademark of SEGA&reg;<br/>
+            The copyrights of "Sonic the Hedgehog" and all associated characters, names, terms, art, and music thereof belong to SEGA&reg;
           </p>
         </div>
       </div>
